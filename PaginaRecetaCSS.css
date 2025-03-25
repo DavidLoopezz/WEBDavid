@@ -1,0 +1,174 @@
+body {
+    margin: 0; /* Quita el margen blanco alrededor del body */
+    background-image: url('Fondo.jpg');
+}
+
+.card {
+    background-color: #EF5D2C; /* Fondo naranja */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ancho ajustable */
+    height: 200px; /* Altura ajustable */
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilo para la imagen dentro de .content */
+.content img {
+    margin-right: 0px;
+    margin-bottom: 0%;
+    width: auto;
+    height: 150px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease; /* Animación de agrandado */
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.content img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen en 10% */
+    cursor: pointer; /* Cambia el cursor a pointer para indicar clic */
+}
+
+.content h2 {
+    font-size: 3em; /* Aumenta el tamaño del texto */
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* Estilos del menú de navegación */
+nav ul {
+    display: flex; /* Muestra los elementos en fila */
+    justify-content: center; /* Centra el menú */
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0;
+    background-color: #ffffff; /* Color de fondo */
+    margin: 0;
+}
+
+/* Estilos de los enlaces del menú */
+nav ul li {
+    margin: 0 15px; /* Espacio entre elementos */
+}
+
+/* Enlaces del menú */
+nav ul li a {
+    color: rgb(0, 0, 0); /* Color de texto */
+    text-decoration: none; /* Quita el subrayado */
+    font-family: sans-serif;
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.3s; /* Transición para el color */
+}
+
+/* Hover para cambiar color en los enlaces del menú */
+nav ul li a:hover {
+    color: #EF5D2C; /* Color al pasar el cursor */
+}
+
+/* Estilos de la sección de recetas */
+section#recetas {
+    padding: 20px; /* Espacio interno */
+    margin: 0 auto;
+    max-width: 800px; /* Ancho máximo */
+    width: 100%;
+    background-color: #ffffff;
+    border: 12px solid #EF5D2C;
+}
+
+/* Estilos de las imágenes de recetas */
+.receta-img {
+    width: 100%; /* Imagen de tamaño completo */
+    max-width: 300px; /* Ancho máximo de imagen */
+    border: 10px solid #EF5D2C; /* Borde */
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: transform 0.3s; /* Transición para agrandar imagen */
+    margin-left: 250px;
+}
+
+/* Hover para agrandar imagen */
+.receta-img:hover {
+    transform: scale(1.05); /* Agranda la imagen */
+}
+
+/* Estilos de la tabla de información nutricional */
+table {
+    width: 100%;
+    border: 10px solid #EF5D2C; /* Borde exterior naranja */
+    border-top-left-radius: 20px; /* Bordes superiores redondeados */
+    border-top-right-radius: 20px;
+    border-spacing: 0; /* Elimina el espacio entre las celdas */
+    background-color: #EF5D2C; /* Fondo naranja para simular borde relleno */
+}
+
+/* Estilos para las celdas */
+th, td {
+    border: 1px solid #EF5D2C; /* Bordes internos naranjas */
+    padding: 10px;
+    background-color: white; /* Fondo blanco en celdas */
+    color: #333; /* Color de texto */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos del formulario de suscripción */
+section#suscripcion form {
+    display: flex; /* Organización en columna */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin: auto;
+    border:10px #ffffff;
+}
+
+/* Estilo del campo de entrada del formulario */
+section#suscripcion input[type="email"] {
+    padding: 10px; 
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo del botón de suscripción */
+section#suscripcion button {
+    padding: 10px 20px;
+    background-color: #000000; /* Color de fondo */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor a mano */
+    transition: background-color 0.3s; /* Transición de color */
+    text-align: center;
+}
+
+/* Hover para cambiar color del botón */
+section#suscripcion button:hover {
+    background-color: #EF5D2C;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos de los enlaces de redes sociales en el footer */
+footer a {
+    color: #ff6347; /* Color de texto */
+    margin: 0 10px;
+    text-decoration: none; /* Quita el subrayado */
+    transition: color 0.3s; /* Transición de color */
+}
+
+/* Hover para cambiar color en enlaces de redes sociales */
+footer a:hover {
+    color: white; /* Cambia a blanco al pasar el cursor */
+}

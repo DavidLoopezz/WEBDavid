@@ -1,1 +1,154 @@
-<h1>La Web de David</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog de Recetas</title>
+    <!-- Vincula el archivo CSS externo -->
+    <link rel="stylesheet" href="PaginaRecetaCSS.css">
+</head>
+<body>
+
+    <!-- Encabezado del blog -->
+    <header>
+        <div class="card">
+            <div class="content">
+                <!-- Enlace que envuelve la imagen y lleva a una URL especificada -->
+                <a href="https://www.rtve.es/television/masterchef" target="_blank"> 
+                    <img src="LogoMC.png" alt="Logo">
+                </a>
+                <h2>Mejores recetas para esta navidad por MasterChef</h2>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- Menú de navegación con tres enlaces -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#recetas">Recetas</a></li>
+            <li><a href="#suscripcion">Registrarse</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="cardRecetas">
+        <!-- Sección principal de recetas -->
+        <section id="recetas">
+            <!-- Primer artículo con receta -->
+            <article>
+                <h2>Espaguetis con zanahoria y erizo de mar</h2>
+                <p>Miguel Diosdado (MasterChef Celebrity 8).</p>
+                
+                <section>
+                    <!-- Imagen de la receta -->
+                    <img src="Plato3.jpeg" alt="Imagen 1" class="receta-img">
+                </section>
+                
+                <!-- Lista de ingredientes de la receta -->
+                <h3>Ingredientes</h3>
+                <ul>
+                    <li>Espagueti 300 g</li>
+                    <li>Erizo de Mar 4</li>
+                    <li>Zanahoria 100 g</li>
+                    <li>Cebolla 1</li>
+                    <li>Mantequilla</li>
+                    <li>Sal</li>
+                    <li>Pimienta</li>
+                </ul>
+
+                <!-- Lista de pasos de la receta -->
+                <h3>Instrucciones</h3>
+                <ol>
+                    <li> Cuece los espaguetis en una olla con un poco de sal.</li>
+                    <li> Mientras tanto corta la zanahoria y la cebolla en trozos muy pequeños y añádelos a una sartén a fuego medio con un poco de mantequilla y sal. Cuando esté un poco doradita la mezcla apartamos.</li>
+                    <li> Prepara los erizos, la idea es sacar las yemas con mucho cuidado y reservar el agua de los erizos para añadir después.</li>
+                    <li> Cuela la pasta, reserva un poco de agua de cocción y vuélvela a colocar en la olla. Ahora es el momento de añadir el jugo de los erizos a la pasta, equilibrando con el agua de cocción que teníamos reservada y moviendo al mismo tiempo.</li>
+                    <li> Tras esto, añade a la pasta la cebolla y la zanahoria y vuelve a mover bien.</li>
+                    <li> Emplata la pasta y coloca las yemas de los erizos sobre ellos para darle el punto final.</li>
+                </ol>
+            </article>
+
+            <!-- Segundo artículo con receta -->
+            <article>
+                <h2>Gyozas de ternera, salsa de ponzu y wakame</h2>
+                <p>Candela López (MasterChef Junior 10)</p>
+                <!-- Imagen de la segunda receta -->
+                <img src="Plato1.jpeg" alt="Imagen 2" class="receta-img">
+
+                 <!-- Lista de ingredientes de la receta -->
+                 <h3>Ingredientes</h3>
+                 <ul>
+                     <li>carrillera de ternera 200g</li>
+                     <li>zanahoria 20g</li>
+                     <li>cebolla 20g</li>
+                     <li>ajo 4g</li>
+                     <li>teriyaki 20g</li>
+                     <li>Sal</li>
+                     <li>Pimienta</li>
+                     <li>obleas de gyozas 4</li>
+                     <li>wakame 100g</li>
+                 </ul>
+ 
+                 <!-- Lista de pasos de la receta -->
+                 <h3>Instrucciones</h3>
+                 <ol>
+                     <li> Para hacer el relleno de gyoza de ternera: Sellamos las carrilleras de ternera.</li>
+                     <li> Cortamos y pelamos las verduras grosso modo. Las fondeamos en una olla exprés.</li>
+                     <li> Una vez las tengamos, añadimos las carrilleras marcadas que tenemos. Desgrasamos con el vino tinto. Una vez se evapore, cubrimos de agua y cocinamos durante 45 minutos.</li>
+                     <li> Una vez pasado este tiempo, comprobamos que estén. Si es así, las desmenuzamos. Con el caldo obtenido, lo colamos y lo reducimos para aliñar la carne y que esta no se quede seca. Le añadimos un poco de teriyaki.</li>
+                     <li> Para hacer la gyoza de ternera: Estiramos las obleas de las gyozas. Las rellenamos y las cerramos. Repulgamos al estilo japonés. Reservamos.</li>
+                     <li> En el momento del pase, ponemos las vaporeras encima de una olla con agua. Esta debe tener el mismo diámetro que las vaporeras. Ponemos en las vaporeras un papel de horno para que no se nos peguen las gyozas. Cocinamos al vapor durante 3 minutos aproximadamente y reservamos para el pase.</li>
+                     <li> Para hacer la salsa de ponzu: Mezclamos todos los ingredientes con varilla y los reservamos.</li>
+                     <li> Para hacer la ensalada de wakame y la cebolla china:</li>
+                     <li> Cortamos la cebolla china muy fina. La mezclamos con el alga wakame. Aliñamos con la salsa ponzu del paso anterior.</li>
+                     <li> Para el acabado y presentación:Ponemos en el centro de los platos la ensalada de wakame y de cebolla china aliñada con la salsa ponzu.</li>
+                     <li> Cogemos la gyoza y la pasamos por la salsa ponzu. Seguidamente la ponemos encima del alga wakame.</li>
+                 </ol>
+            </article>
+
+            <!-- Tabla de información nutricional -->
+            <h3>Información Nutricional</h3>
+            <table>
+                <tr>
+                    <th>Receta</th>
+                    <th>Calorías</th>
+                </tr>
+                <tr>
+                    <td>Espagueti con zanahoria y erizo de mar</td>
+                    <td>1150 kcal</td>
+                </tr>
+                <tr>
+                    <td>Gyozas de ternera, salsa de ponzu y wakame</td>
+                    <td>450 kcal</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <!-- Formulario de suscripción al boletín -->
+    <section id="suscripcion">
+        <form action="#">
+            <h3>Registrate en Masterchef</h3>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="password" name="contraseña" placeholder="password" required>
+            <label for="dirección postal">Dirección Postal:</label>
+            <input type="text" id="direcciónpostal" placeho="dirección postal" placeholder="calle, número, cod postal"> 
+            <p> </p>
+            <button type="submit">REGISTRARSE</button>
+        </form>
+    </section>
+
+    <!-- Footer con enlaces a redes sociales -->
+    <section id="contacto">
+        <footer>
+            <p>Síguenos en:</p>
+            <a href="https://www.facebook.com/masterchefespana/?locale=es_ES" class="social-link">Facebook</a>
+            <a href="https://www.instagram.com/masterchef_es/?hl=es" class="social-link">Instagram</a>
+            <a href="https://x.com/MasterChef_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-link">Twitter</a>
+        </footer>
+    </section>
+
+</body>
+</html>
+
